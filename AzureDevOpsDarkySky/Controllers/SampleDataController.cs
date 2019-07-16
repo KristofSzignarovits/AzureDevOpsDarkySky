@@ -32,6 +32,7 @@ namespace AzureDevOpsDarkySky.Controllers
         {
             MainModel mm = new MainModel();
             mm = JsonConvert.DeserializeObject<MainModel>(ExecuteQuery());
+            mm.Currently.Temperature = (mm.Currently.Temperature-32)/1.8;
             return mm;
         }
 
