@@ -40,7 +40,6 @@ namespace AzureDevOpsDarkySky.Controllers
         {
             string queryResult = null;
             HttpResponseMessage httpResponseMessage = null;
-
             try
             {
                 httpResponseMessage = GetHttpResponseAsync(_url).Result;
@@ -59,7 +58,6 @@ namespace AzureDevOpsDarkySky.Controllers
                     httpResponseMessage.Dispose();
                 }
             }
-
             return queryResult;
         }
 
