@@ -21,12 +21,6 @@ namespace AzureDevOpsDarkySky.Controllers
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
-
-        //public void Index()
-        //{
-        //    
-        //}
-        //
         [HttpGet("[action]")]
         public ActionResult<MainModel> Index()
         {
