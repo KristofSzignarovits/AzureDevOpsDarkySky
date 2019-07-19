@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsDarkySky", "AzureDevOpsDarkySky\AzureDevOpsDarkySky.csproj", "{0CF1E35B-01A0-4918-AE5C-A52C8BC42499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOpsDarkySky", "AzureDevOpsDarkySky\AzureDevOpsDarkySky.csproj", "{0CF1E35B-01A0-4918-AE5C-A52C8BC42499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsDarkSkyTest", "AzureDevOpsDarkSkyTest\AzureDevOpsDarkSkyTest\AzureDevOpsDarkSkyTest.csproj", "{30106A74-7973-4B93-8D50-81B180CD83E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0CF1E35B-01A0-4918-AE5C-A52C8BC42499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF1E35B-01A0-4918-AE5C-A52C8BC42499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF1E35B-01A0-4918-AE5C-A52C8BC42499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30106A74-7973-4B93-8D50-81B180CD83E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30106A74-7973-4B93-8D50-81B180CD83E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30106A74-7973-4B93-8D50-81B180CD83E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30106A74-7973-4B93-8D50-81B180CD83E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

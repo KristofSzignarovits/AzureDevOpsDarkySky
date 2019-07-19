@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest.csproj",
+        "projectName": "AzureDevOpsDarkSkyTest",
+        "projectPath": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest.csproj",
+        "packagesPath": "C:\\Users\\kszignarovits\\.nuget\\packages\\",
+        "outputPath": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkSkyTest\\AzureDevOpsDarkSkyTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kszignarovits\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky.csproj": {
+                "projectPath": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky.csproj",
+        "projectName": "AzureDevOpsDarkySky",
+        "projectPath": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky.csproj",
+        "packagesPath": "C:\\Users\\kszignarovits\\.nuget\\packages\\",
+        "outputPath": "D:\\Mentoring_DarkSky_AzureDevOps\\AzureDevOpsDarkySky\\AzureDevOpsDarkySky\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kszignarovits\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

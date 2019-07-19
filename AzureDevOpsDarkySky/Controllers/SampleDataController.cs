@@ -15,22 +15,23 @@ namespace AzureDevOpsDarkySky.Controllers
     public class SampleDataController : Controller
     {
 
-        private static string _url = "https://api.darksky.net/forecast/9841c4b2b003457c4a1c89477f8eba7b/47.4984,19.0405/";
+        public static string _url = "https://api.darksky.net/forecast/9841c4b2b003457c4a1c89477f8eba7b/47.4984,19.0405/";
 
         private static string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
+
         [HttpGet("[action]")]
         public ActionResult<MainModel> Index()
         {
             MainModel mm = new MainModel();
-            mm = JsonConvert.DeserializeObject<MainModel>(ExecuteQuery());
+            mm = JsonConvert.DeserializeObject<MainModel>(ExecuteQuery(_url));
             mm.Currently.Temperature = (mm.Currently.Temperature-32)/1.8;
             return mm;
         }
 
-        private string ExecuteQuery()
+        public string ExecuteQuery(string _url)
         {
             string queryResult = null;
             HttpResponseMessage httpResponseMessage = null;
